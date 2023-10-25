@@ -1,0 +1,101 @@
+body {
+  font-family: arial, sans-serif;
+  background-image: url(../image/red-tulip-flower-pink-background_943471-561.jpg);
+  float: left;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+h1 {
+  color: #2b2e2e;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 28px;
+  margin: 0;
+}
+
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+li {
+  color: #1e2020;
+  font-size: 14px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+  margin-top: 6px;
+}
+
+.weather-app {
+  border: 1px solid hsl(305, 48%, 60%);
+  padding: 20px;
+  margin: 30px auto;
+  border-radius: 10px;
+  max-width: 660px;
+  background: transparent;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.weather-icon {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+}
+
+.temperature {
+  color: rgb(22, 19, 19);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+  color: #dadde1;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+#source {
+  margin-left: 380px;
+  background-color: rgb(31, 34, 28);
+  color: white;
+  padding: 5px 4px;
+  border-radius: 30px;
+}
+#search-btn {
+  background-color: rgb(175, 59, 98);
+  color: whitesmoke;
+  font-weight: bold;
+  border: transparent;
+  cursor: pointer;
+}
+#search-btn:hover {
+  color: rgb(175, 59, 98);
+  background-color: white;
+  transition: all 200ms ease-in-out;
+}
+
+#current-location-button {
+  margin-top: 5px;
+  background-color: rgb(175, 59, 98);
+  color: whitesmoke;
+  font-weight: bold;
+  border: transparent;
+  cursor: pointer;
+}
+#current-location-button:hover {
+  color: rgb(175, 59, 98);
+  background-color: white;
+  transition: all 200ms ease-in-out;
+}
